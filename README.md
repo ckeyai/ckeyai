@@ -32,13 +32,13 @@ CKEYAI 是一家 AI 原生软件工作室：一个人，二十四位常驻智能
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://ckeyai.github.io/ckeyai/#work"><img src="public/images/nebula.jpg" alt="NEBULA" width="100%" /></a>
+      <a href="https://ckeyai.github.io/ckeyai/#work"><img src="public/images/nebula.svg" alt="NEBULA" width="100%" /></a>
       <br /><br />
       <b>NEBULA</b> · AI 原生工作台<br />
       <sub>给独立创始人的操作系统 — Product Hunt #1 · 30 天 2.3k 用户</sub>
     </td>
     <td width="50%" valign="top">
-      <a href="https://ckeyai.github.io/ckeyai/#work"><img src="public/images/lumen.jpg" alt="LUMEN" width="100%" /></a>
+      <a href="https://ckeyai.github.io/ckeyai/#work"><img src="public/images/lumen.svg" alt="LUMEN" width="100%" /></a>
       <br /><br />
       <b>LUMEN</b> · 生成式设计系统<br />
       <sub>一句话交付品牌规范与组件库 — 1,400 个团队 · 3 个月 → 4 小时</sub>
@@ -46,13 +46,13 @@ CKEYAI 是一家 AI 原生软件工作室：一个人，二十四位常驻智能
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://ckeyai.github.io/ckeyai/#work"><img src="public/images/atlas.jpg" alt="ATLAS" width="100%" /></a>
+      <a href="https://ckeyai.github.io/ckeyai/#work"><img src="public/images/atlas.svg" alt="ATLAS" width="100%" /></a>
       <br /><br />
       <b>ATLAS</b> · 自主运维智能体<br />
       <sub>托管 1,480 个服务 — MTTR 38 秒 · P0 事故 0 起</sub>
     </td>
     <td width="50%" valign="top">
-      <a href="https://ckeyai.github.io/ckeyai/#work"><img src="public/images/orbit.jpg" alt="ORBIT" width="100%" /></a>
+      <a href="https://ckeyai.github.io/ckeyai/#work"><img src="public/images/orbit.svg" alt="ORBIT" width="100%" /></a>
       <br /><br />
       <b>ORBIT</b> · 一句话 SaaS 引擎<br />
       <sub>从描述到可运营的 SaaS — 32k 开发者 · 8,900 个项目</sub>

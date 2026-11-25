@@ -14,7 +14,7 @@ export const works: Work[] = [
     name: 'NEBULA',
     tag: 'AI 原生工作台',
     year: '2026',
-    image: `${import.meta.env.BASE_URL}images/nebula.jpg`,
+    image: `${import.meta.env.BASE_URL}images/nebula.svg`,
     blurb:
       '给独立创始人的操作系统：需求、任务、代码与部署，全部由一个常驻智能体网络接管。上线 30 天，2,300 位创始人把它当作唯一的工作台。',
     metrics: ['Product Hunt #1', '30 天 2.3k 用户'],
@@ -24,7 +24,7 @@ export const works: Work[] = [
     name: 'LUMEN',
     tag: '生成式设计系统',
     year: '2025',
-    image: `${import.meta.env.BASE_URL}images/lumen.jpg`,
+    image: `${import.meta.env.BASE_URL}images/lumen.svg`,
     blurb:
       '输入一句话，输出可交付的品牌规范、组件库与营销页面。1,400 个团队用它把设计系统从三个月压缩到一个下午。',
     metrics: ['1,400 个团队', '3 个月 → 4 小时'],
@@ -34,7 +34,7 @@ export const works: Work[] = [
     name: 'ATLAS',
     tag: '自主运维智能体',
     year: '2026',
-    image: `${import.meta.env.BASE_URL}images/atlas.jpg`,
+    image: `${import.meta.env.BASE_URL}images/atlas.svg`,
     blurb:
       '同时监控 1,480 个服务，自主定位、修复并复盘。上线至今，P0 事故 0 起，平均恢复时间 38 秒。',
     metrics: ['1,480 个服务', 'MTTR 38s'],
@@ -44,7 +44,7 @@ export const works: Work[] = [
     name: 'ORBIT',
     tag: '一句话 SaaS 引擎',
     year: '2025',
-    image: `${import.meta.env.BASE_URL}images/orbit.jpg`,
+    image: `${import.meta.env.BASE_URL}images/orbit.svg`,
     blurb:
       '从一句描述生成完整 SaaS：多租户、计费、权限、后台与营销站。32,000 名开发者用它发布了人生第一个产品。',
     metrics: ['32k 开发者', '8,900 个项目'],

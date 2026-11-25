@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-label="CKEYAI — AI 原生软件工作室 — 一句话，一整个产品">
+  <title>CKEYAI — AI 原生软件工作室</title>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f9edd6" />
+      <stop offset="0.55" stop-color="#e8c893" />
+      <stop offset="1" stop-color="#c6a578" />
+    </linearGradient>
+    <radialGradient id="violet" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#7c5cff" stop-opacity="0.5" />
+      <stop offset="1" stop-color="#7c5cff" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="cyan" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#46c8ff" stop-opacity="0.3" />
+      <stop offset="1" stop-color="#46c8ff" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0V64" fill="none" stroke="#ffffff" stroke-opacity="0.05" />
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.85" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+    <mask id="gridmask">
+      <rect width="1280" height="440" fill="url(#fade)" />
+    </mask>
+    <clipPath id="round">
+      <rect width="1280" height="440" rx="26" />
+    </clipPath>
+    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="70" />
+    </filter>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1280" height="440" fill="#07070b" />
+    <ellipse cx="140" cy="20" rx="430" ry="300" fill="url(#violet)" filter="url(#blur)" />
+    <ellipse cx="1180" cy="440" rx="420" ry="300" fill="url(#cyan)" filter="url(#blur)" />
+    <rect width="1280" height="440" fill="url(#grid)" mask="url(#gridmask)" />
+
+    <g font-family="'Inter','Helvetica Neue',Arial,sans-serif">
+      <text x="80" y="130" font-family="'SFMono-Regular',ui-monospace,Menlo,monospace" font-size="12.5" letter-spacing="4.2" fill="#8b8b98">AI-NATIVE SOFTWARE STUDIO · EST. 2023</text>
+
+      <text x="76" y="230" font-size="80" font-weight="600" letter-spacing="12" fill="#f8f7f3">CKEYAI</text>
+
+      <rect x="80" y="260" width="56" height="2" fill="url(#gold)" />
+
+      <text x="78" y="328" font-family="'Noto Serif SC','Songti SC','SimSun',Georgia,serif" font-size="36" letter-spacing="1" fill="url(#gold)">一句话，一整个产品。</text>
+
+      <text x="80" y="370" font-family="'Instrument Serif',Georgia,serif" font-style="italic" font-size="21" fill="#ffffff" fill-opacity="0.42">One sentence. One product.</text>
+
+      <text x="80" y="410" font-family="'SFMono-Regular',ui-monospace,Menlo,monospace" font-size="11" letter-spacing="2.6" fill="#ffffff" fill-opacity="0.36">47 PRODUCTS · 3.4M LINES · 99.98% UPTIME · 24 AGENTS</text>
+    </g>
+
+    <g fill="none" stroke="#e8c893">
+      <circle cx="1035" cy="214" r="170" stroke-opacity="0.06" />
+      <circle cx="1035" cy="214" r="128" stroke-opacity="0.13" />
+      <circle cx="1035" cy="214" r="88" stroke-opacity="0.3" stroke-dasharray="2 10" />
+    </g>
+
+    <g fill="none" stroke="url(#gold)" stroke-width="2.2">
+      <circle cx="1035" cy="186" r="36" />
+      <path d="M1035 222 V 288" stroke-linecap="round" />
+    </g>
+    <circle cx="1035" cy="186" r="9" fill="url(#gold)" />
+
+    <circle cx="1035" cy="44" r="3.5" fill="#e8c893" fill-opacity="0.7" />
+    <circle cx="1205" cy="214" r="2.5" fill="#7fe3ff" fill-opacity="0.7" />
+    <circle cx="905" cy="300" r="2" fill="#e8c893" fill-opacity="0.5" />
+  </g>
+
+  <rect x="0.5" y="0.5" width="1279" height="439" rx="26" fill="none" stroke="#ffffff" stroke-opacity="0.12" />
+</svg>

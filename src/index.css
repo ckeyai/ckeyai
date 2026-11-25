@@ -11,8 +11,6 @@
   --ink-3: #7b7e71;
   --rule: rgba(20, 22, 15, 0.16);
   --rule-2: rgba(20, 22, 15, 0.34);
-  --blue: #1d2bd8;
-  --blue-soft: #5b6bff;
   --bone: #eee8d6;
 
   --sans: "Archivo", "Noto Sans SC", "PingFang SC", "Hiragino Sans GB",
@@ -48,8 +46,8 @@ body {
 }
 
 ::selection {
-  background: var(--blue);
-  color: var(--bone);
+  background: var(--ink);
+  color: var(--paper);
 }
 
 a {
@@ -84,7 +82,7 @@ dd {
 }
 
 :focus-visible {
-  outline: 2px solid var(--blue);
+  outline: 2px solid var(--ink);
   outline-offset: 3px;
 }
 
@@ -144,7 +142,7 @@ dd {
 }
 
 .nav a:hover {
-  color: var(--blue);
+  color: var(--ink);
   border-color: currentColor;
 }
 
@@ -163,7 +161,7 @@ dd {
 }
 
 .masthead-mail:hover {
-  color: var(--blue);
+  color: var(--ink);
   border-color: currentColor;
 }
 
@@ -288,14 +286,14 @@ dd {
 }
 
 .link:hover {
-  color: var(--blue);
+  color: var(--ink);
   border-color: currentColor;
 }
 
 .ledger {
   grid-column: 1 / -1;
   margin-top: clamp(40px, 5vw, 56px);
-  background: var(--blue);
+  background: var(--ink);
   color: var(--bone);
   padding: clamp(20px, 2.4vw, 28px);
 }
@@ -522,7 +520,7 @@ main[id] {
   display: block;
   overflow: hidden;
   border: 1px solid var(--rule);
-  background: #12172e;
+  background: var(--ink);
 }
 
 .work-media img {
@@ -801,7 +799,7 @@ main[id] {
 }
 
 .closing-mail:hover {
-  color: var(--blue-soft);
+  color: var(--bone);
 }
 
 /* ------------------------------------------------------------------ */
